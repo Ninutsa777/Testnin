@@ -19,3 +19,16 @@ else {console.log (n)}
 let studentName = { Name:"Ninutsa" }
 
 console.log ("Rise and Shine", studentName.Name )
+
+let salary=500;
+
+if (salary>=2000)
+    {
+    let bonus= 0
+    console.log(bonus)
+}
+
+else if (salary<2000) {
+    let bonus=salary*0.1
+    console.log (bonus)
+}
