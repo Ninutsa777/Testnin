@@ -9,3 +9,9 @@ let student= {
      marks: 100
     }
 console.log (student.FirsName)
+
+let m=45, n=23;
+k=m+n
+if (m>n) 
+{console.log (k)}
+else {console.log (n)}
