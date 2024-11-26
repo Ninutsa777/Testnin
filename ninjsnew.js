@@ -15,3 +15,7 @@ k=m+n
 if (m>n) 
 {console.log (k)}
 else {console.log (n)}
+
+let studentName = { Name:"Ninutsa" }
+
+console.log ("Rise and Shine", studentName.Name )
