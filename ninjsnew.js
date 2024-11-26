@@ -38,3 +38,8 @@ console.log (c)
 
 let phones= ["iphone","samsung","pixel","huawei","xiaomi"]
 console.log (phones)
+
+let phoness= ["iphone","samsung","pixel","huawei","xiaomi"]
+
+console.log (phoness [4])
+console.log (phoness [0])
