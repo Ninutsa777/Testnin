@@ -32,3 +32,7 @@ else if (salary<2000) {
     let bonus=salary*0.1
     console.log (bonus)
 }
+
+let a=23, b=a/2; c=a+b;
+console.log (c)
+
