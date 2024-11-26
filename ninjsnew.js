@@ -36,3 +36,5 @@ else if (salary<2000) {
 let a=23, b=a/2; c=a+b;
 console.log (c)
 
+let phones= ["iphone","samsung","pixel","huawei","xiaomi"]
+console.log (phones)
