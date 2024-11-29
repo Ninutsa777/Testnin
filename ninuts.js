@@ -24,6 +24,10 @@ let person = {
 console.log (person.FirstName)
 console.log (person.LastName)
 
+for (propertyKey in person){
+
+    console.log (person [propertyKey])
+}
 
 
 
