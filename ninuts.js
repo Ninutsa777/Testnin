@@ -40,3 +40,13 @@ console.log (fruits)
 fruits.push ("Pineapples")
 
 console.log (fruits)
+
+sum=0
+for ( i = 1; i< 34; i++) {
+
+    sum=sum+i
+
+    
+    }
+
+    console.log ("sum=", sum)
