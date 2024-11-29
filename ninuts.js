@@ -1,5 +1,5 @@
-let numbers=["2","3","4","5","6","7","8"]
-console.log (numbers.slice ())
+for (i=2; i<9; i++)
+    {console.log (i)}
 
 
 
