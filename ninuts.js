@@ -7,7 +7,11 @@ for (i=5; i<35; i=i+4){
     console.log (i)
 }
 
-
+namravli=1
+for(i=3; i<8; i++){
+namravli=i*namravli
+console.log (namravli)
+}
 
 
 
