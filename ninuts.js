@@ -3,10 +3,11 @@ let fruits = ["Apple","Banana","Orange"]
 console.log (fruits)
 
 
-let fruite= ["Apple","Banana","Orange"]
+fruits.unshift ("Grapes")
 
-console.log (fruite)
+console.log (fruits)
 
-fruite.unshift ("Grapes")
 
-console.log (fruite)
+fruits.push ("Pineapples")
+
+console.log (fruits)
