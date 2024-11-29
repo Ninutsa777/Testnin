@@ -3,6 +3,12 @@ for (i=2; i<9; i++)
 
 
 
+for (i=5; i<35; i=i+4){
+    console.log (i)
+}
+
+
+
 
 
 let person = {
@@ -13,6 +19,8 @@ let person = {
 
 console.log (person.FirstName)
 console.log (person.LastName)
+
+
 
 
 
