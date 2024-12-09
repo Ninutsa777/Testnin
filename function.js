@@ -8,14 +8,15 @@ console. log (result);
 
 
 
-function srulisakhelidagvari(person){
-    console.log ("sruli saxeli=",person.firstName, person.lastName)
+function firstNamelastName(person){
+    console.log("sruli saxeli da gvari =",person.firstName, person.lastName)
 } 
-let person={
+let students={
     firstName: "ninutsa",
     lastName:"sikharulidze"
 }
-fullname(person)
+
+firstNamelastName(students)
 
 
 
