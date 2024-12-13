@@ -1,33 +1,60 @@
-function sum (m, n) {
-    let jami = m+n
-    return jami
+function compareNumber (m,n) {
+    if (m>n) {return m}
+    else if (n>m) {return n}
+    else {return 0}
 }
 
-let result=sum (20,10)
-console. log (result);
+
+
+function sum (num1, num2) { 
+    return num1+num2
+
+}
+console.log (sum (3,5))
 
 
 
-function firstNamelastName(person){
-    console.log("sruli saxeli da gvari =",person.firstName, person.lastName)
+function myName(){
+    console.log("ninutsa sikharulidze")
 } 
-let students={
-    firstName: "ninutsa",
-    lastName:"sikharulidze"
+myName()
+
+
+function fullname (firstName,lastName){
+    let srulisakheli= firstName+" "+lastName
+    return (srulisakheli)
 }
+let lika=fullname("lika","kldiashvili")
+console.log (lika)
 
-firstNamelastName(students)
+function total(n) {
+    let amount = 1;
+    for(let i=1; i<n ;i++)
+        {amount= amount*i}
+    return amount
 
-
-
-
-function fullname (person){
-    let results="sruli saxeli=" + person.firstName+ person.lastName
-    return (results)
 }
-let girl={
-    firstName:"Lika",
-    lastName:"Kldiashvili"
+console.log (total(5))
+
+let student =  {
+    firstName: "giorgi",
+    lastName: "kldiashvili",
+    age:31,
+    scores:[4,7,5,3,2],
+    fullname:function(){
+        return this.firstName+" " +this.lastName
+
+    }
 }
-let srulisakheli=fullname(girl)
-console.log(srulisakheli)
+console.log (student.fullname())
+
+function qulebisjami(scores) {
+    let jami=0;
+    for (let i=0; i<scores.length; i++){
+        jami= jami+scores [i]
+    }
+    return jami
+}console.log (qulebisjami(student.scores))
+
+console.log ("name an age:", student.firstName, student.age )
+
